@@ -1,0 +1,14 @@
+src/app/admin/ai-tools/page.js
+src/app/admin/articles/page.js
+src/app/admin/categories/page.js
+src/app/admin/layout.js
+src/app/admin/media/page.js
+src/app/admin/page.js
+src/app/admin/pages/[slug]/page.js
+src/app/admin/pages/page.js
+src/app/admin/settings/page.js
+src/app/article/[slug]/page.js
+src/app/category/[type]/page.js
+src/components/admin/AdminSidebar.jsx
+src/components/admin/ArticleEditor.jsx
+src/components/layout/Navbar.jsx

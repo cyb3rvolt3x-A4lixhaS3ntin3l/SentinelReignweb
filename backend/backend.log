@@ -1,0 +1,177 @@
+INFO:     Started server process [1225187]
+INFO:     Waiting for application startup.
+INFO:main:Running abstract database auto-migration sequences...
+INFO:apscheduler.scheduler:Added job "scheduled_crawler_job" to job store "default"
+INFO:apscheduler.scheduler:Added job "map_pending_roadmaps" to job store "default"
+INFO:apscheduler.scheduler:Added job "self_healing_daemon_job" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "OPTIONS /api/engine/generate_manual HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41682 - "POST /api/engine/generate_manual HTTP/1.1" 200 OK
+INFO:services.crawler:Initiating Manual Generation Protocol for topic: Python Programming
+INFO:services.agents:[IntelligenceEngine] Manual Trigger: Python Programming
+INFO:services.agents:[DiscoveryAgent] Initiating web search for: 'Python Programming'
+INFO:services.playwright_scraper:[Playwright] Stealth scraping for: Python Programming
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+WARNING:services.playwright_scraper:[Playwright] DuckDuckGo block detected, falling back to Yandex: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[name=\"q\"]")
+
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+ERROR:services.playwright_scraper:[Playwright] Failed to initialize chromium: Page.wait_for_selector: Timeout 8000ms exceeded.
+Call log:
+  - waiting for locator(".serp-item") to be visible
+
+INFO:services.agents:[DiscoveryAgent] Playwright Stealth blocked. Generating Simulated Research Data via LLM...
+INFO:services.ai_router:AI Router: Attempting primary provider (NVIDIA)...
+INFO:services.ai_router:Awaiting NVIDIA NIM token from TokenBucket...
+INFO:services.agents:[DiscoveryAgent] Routing Decision: Analyzing complexity...
+INFO:services.ai_router:AI Router: Attempting primary provider (NVIDIA)...
+INFO:services.ai_router:Awaiting NVIDIA NIM token from TokenBucket...
+INFO:services.agents:[DiscoveryAgent] Decision Reached: [Complex] [Threat_Intel] on 'Recent Python Vulnerabilities and Threats'
+INFO:services.agents:[WriterAgent] Drafting Manual Intelligence (Attempt 1): Recent Python Vulnerabilities and Threats
+INFO:services.ai_router:AI Router: Attempting primary provider (NVIDIA)...
+INFO:services.ai_router:Awaiting NVIDIA NIM token from TokenBucket...
+INFO:services.agents:[CriticAgent] Critiquing Manual Draft: Recent Python Vulnerabilities and Threats
+INFO:services.ai_router:AI Router: Attempting primary provider (NVIDIA)...
+INFO:services.ai_router:Awaiting NVIDIA NIM token from TokenBucket...
+INFO:services.agents:[FactCheckerAgent] Verifying Manual Facts: Recent Python Vulnerabilities and Threats
+INFO:services.ai_router:AI Router: Attempting primary provider (NVIDIA)...
+INFO:services.ai_router:Awaiting NVIDIA NIM token from TokenBucket...
+INFO:services.agents:[JudgeAgent] Evaluating Manual Intelligence: Recent Python Vulnerabilities and Threats
+INFO:services.ai_router:AI Router: Attempting primary provider (NVIDIA)...
+INFO:services.ai_router:Awaiting NVIDIA NIM token from TokenBucket...
+INFO:services.agents:[IntelligenceEngine] Intelligence Validated (Score: 98.5)
+INFO:services.agents:[SEOAgent] Metadata mapping for: Recent Python Vulnerabilities and Threats
+INFO:services.ai_router:AI Router: Attempting primary provider (NVIDIA)...
+INFO:services.ai_router:Awaiting NVIDIA NIM token from TokenBucket...
+INFO:services.agents:[IntelligenceEngine] Manual Article Published: Recent Python Vulnerabilities and Threats
+WARNING:services.seo_index_daemon:[SEO Daemon] Credentials missing. Skipping Google Index API ping for https://sentinelreign.com/article/recent-python-vulnerabilities-and-threats-232511
+INFO:     127.0.0.1:38220 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38220 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38220 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42826 - "GET /api/cms/articles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38220 - "GET /api/cms/articles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38226 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38224 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38206 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38220 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42826 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60372 - "GET /api/public/articles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/cms/layout HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33772 - "GET /api/cms/layout HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58838 - "GET /api/public/articles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58840 - "GET /api/cms/layout HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58840 - "GET /api/cms/layout HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/engine/logs?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33772 - "GET /api/cms/articles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34874 - "GET /api/cms/articles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34880 - "GET /api/public/articles/recent-python-vulnerabilities-and-threats-232511 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58312 - "GET /api/cms/layout HTTP/1.1" 404 Not Found
