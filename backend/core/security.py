@@ -1,6 +1,7 @@
 from passlib.context import CryptContext
 from datetime import datetime, timedelta
 import jwt
+import os
 from typing import Optional
 from fastapi.security import OAuth2PasswordBearer
 from fastapi import Depends, HTTPException, status
@@ -8,8 +9,8 @@ from sqlalchemy.orm import Session
 from core.database import get_db
 from models.user import User
 
-# Hardcoded Secret for development. Normally keep in .env
-SECRET_KEY = "sentinel-reign-super-secret-key-2026-v9"
+# Security key MUST be from environment variable in production
+SECRET_KEY = os.getenv("SECRET_KEY", "sentinel-reign-dev-key-change-in-prod")
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7 # 7 days for admin convenience
 
